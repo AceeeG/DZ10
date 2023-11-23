@@ -1,4 +1,5 @@
 ﻿using System;
+using Bank;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,8 @@ namespace Lab
             factory.CreateAccount(800);
             factory.CreateAccount(850, type);
             factory.CreateAccount();
-            factory.DeleteAccount(3);
+            factory.DeleteAccount(5);
+            factory.CreateAccount();
             factory.Print();
 
         }
