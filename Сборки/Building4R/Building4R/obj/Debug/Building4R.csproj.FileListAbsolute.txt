@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\Building4R\Building4R\Building4R\bin\Debug\Building4R.dll
+C:\Users\User\source\repos\Building4R\Building4R\Building4R\bin\Debug\Building4R.pdb
+C:\Users\User\source\repos\Building4R\Building4R\Building4R\obj\Debug\Building4R.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Building4R\Building4R\Building4R\obj\Debug\Building4R.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Building4R\Building4R\Building4R\obj\Debug\Building4R.dll
+C:\Users\User\source\repos\Building4R\Building4R\Building4R\obj\Debug\Building4R.pdb
