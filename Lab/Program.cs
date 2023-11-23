@@ -1,15 +1,12 @@
 ﻿using System;
 using Bank;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Building4R;
 
 namespace Lab
 {
     internal class Program
     {
-        static void DoExercises()
+        static void DoExercises11()
         {
             Console.WriteLine("Упражнения 1 - 2\n");
 
@@ -24,10 +21,20 @@ namespace Lab
             factory.Print();
 
         }
+
+        static void DoHomework11()
+        {
+            Console.WriteLine("Домашнее задание\n");
+            Building4 building1 = CreatorR.CreateBuilding();
+            Building4 building2 = CreatorR.CreateBuilding();
+            CreatorR.DeleteBuilding(building2.Id);
+
+        }
         static void Main(string[] args)
         {
-            DoExercises();
-
+            Console.WriteLine("Лабораторная 11\n");
+            DoExercises11();
+            DoHomework11();
 
             Console.ReadKey();
         }
