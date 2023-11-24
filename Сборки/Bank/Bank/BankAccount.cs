@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Security.Principal;
 
 
 namespace Bank
@@ -185,6 +186,54 @@ namespace Bank
 
                 GC.SuppressFinalize(this);
             }
+        }
+
+        /// <summary>
+        /// Переопределенный метод Equals для класса Банковский Аккаунт
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
+            {
+                return false;
+            }
+            else
+            {
+
+                BankAccount other = (BankAccount)obj;
+                return id == other.id && balance == other.balance && type == other.type;
+            }
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+        public static bool operator ==(BankAccount account1, BankAccount account2)
+        {
+            if (ReferenceEquals(account1, account2))
+            {
+                return true;
+            }
+            else if (account1 is null || account2 is null)
+            {
+                return false;
+            }
+            else
+            {
+                return account1.Equals(account2);
+            }
+        }
+
+        public static bool operator !=(BankAccount account1, BankAccount account2)
+        {
+            return !(account1 == account2);
+        }
+        public override string ToString()
+        {
+            return $"Id: {id}, Баланс: {Balance}, Тип: {type}\n";
         }
     }
 }
