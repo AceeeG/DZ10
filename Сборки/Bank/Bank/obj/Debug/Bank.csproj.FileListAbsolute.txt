@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\Bank\Bank\Bank\bin\Debug\Bank.dll
+C:\Users\User\source\repos\Bank\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\User\source\repos\Bank\Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Bank\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Bank\Bank\Bank\obj\Debug\Bank.dll
+C:\Users\User\source\repos\Bank\Bank\Bank\obj\Debug\Bank.pdb
+C:\Users\User\source\repos\Сборки\Bank\Bank\bin\Debug\Bank.dll
+C:\Users\User\source\repos\Сборки\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\User\source\repos\Сборки\Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Сборки\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Сборки\Bank\Bank\obj\Debug\Bank.dll
+C:\Users\User\source\repos\Сборки\Bank\Bank\obj\Debug\Bank.pdb
